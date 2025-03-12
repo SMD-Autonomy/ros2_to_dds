@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2_to_dds</name>
+  <version>0.0.1</version>
+  <description>SMD's Autonomy Health Monitor for Modules.</description>
+  <maintainer email="Sriharsha.Aryasomayajula@smd.co.uk">Sriharsha Aryasomayajula</maintainer>
+  <license>Proprietary</license>
+
+  <exec_depend>ros2launch</exec_depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>plc_msgs</depend>
+  <depend>common_messages</depend>
+  <depend>ament_index_cpp</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <rosdoc2>rosdoc2.yaml</rosdoc2>
+  </export>
+</package>
